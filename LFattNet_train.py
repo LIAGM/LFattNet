@@ -2,14 +2,14 @@
 
 from __future__ import print_function
 
-from LFattNet_fun.func_generate_traindata_noise import generate_traindata_for_train
-from LFattNet_fun.func_generate_traindata_noise import data_augmentation_for_train
-from LFattNet_fun.func_generate_traindata_noise import generate_traindata512
+from LFattNet_func.func_generate_traindata_noise import generate_traindata_for_train
+from LFattNet_func.func_generate_traindata_noise import data_augmentation_for_train
+from LFattNet_func.func_generate_traindata_noise import generate_traindata512
 
-from LFattNet_fun.func_model_81 import define_LFattNet
-from LFattNet_fun.func_pfm import read_pfm
-from LFattNet_fun.func_savedata import display_current_output
-from LFattNet_fun.util import load_LFdata
+from LFattNet_func.func_model_81 import define_LFattNet
+from LFattNet_func.func_pfm import read_pfm
+from LFattNet_func.func_savedata import display_current_output
+from LFattNet_func.util import load_LFdata
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -102,7 +102,7 @@ if __name__ == '__main__':
                                gpu number = 0 ) 
     '''
     os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-    os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
     os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
@@ -130,8 +130,9 @@ if __name__ == '__main__':
     ''' 
     Define directory for saving checkpoint file & disparity output image
     '''
-    LFattNet_checkpoints_path = 'test_checkpoint/'
-    LFattNet_output_path = 'test_output/'
+    LFattNet_checkpoints_path = 'LFattNet_checkpoint/'
+    LFattNet_output_path = 'LFattNet_output/'
+
     directory_ckp = LFattNet_checkpoints_path+"%s_ckp" % (networkname)
     if not os.path.exists(directory_ckp):
         os.makedirs(directory_ckp)

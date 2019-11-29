@@ -27,10 +27,10 @@ you should change our 'func_makeinput.py' file.
 import numpy as np
 import os
 import time
-from LFattNet_fun.func_pfm import write_pfm, read_pfm
-from LFattNet_fun.func_makeinput import make_epiinput
-from LFattNet_fun.func_makeinput import make_input
-from LFattNet_fun.func_model_81 import define_LFattNet
+from LFattNet_func.func_pfm import write_pfm, read_pfm
+from LFattNet_func.func_makeinput import make_epiinput
+from LFattNet_func.func_makeinput import make_input
+from LFattNet_func.func_model_81 import define_LFattNet
 
 import matplotlib.pyplot as plt
 import cv2
@@ -40,14 +40,14 @@ if __name__ == '__main__':
     # Input : input_Cam000-080.png
     # Depth output : image_name.pfm
 
-    dir_output = 'LFattNet_output_test'
+    dir_output = 'LFattNet_output'
 
     if not os.path.exists(dir_output):
         os.makedirs(dir_output)
 
     # GPU setting ( gtx 1080ti - gpu0 )
     os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-    os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
     os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
