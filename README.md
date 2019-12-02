@@ -1,4 +1,6 @@
 # LFattNet: Attention-based View Selection Networks for Light-field Disparity Estimation
+![paper concept](http://www.cmlab.csie.ntu.edu.tw/~r06922009/AAAI2020/concept.png)
+
 **Attention-based View Selection Networks for Light-field Disparity Estimation** 
 
 Yu-Ju Tsai,<sup>1</sup> Yu-Lun Liu,<sup>1,2</sup> Ming Ouhyoung,<sup>1</sup> Yung-Yu Chuang<sup>1</sup>  
