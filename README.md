@@ -14,6 +14,7 @@ AAAI Conference on Artificial Intelligence (AAAI), Feb 2020
 
 # SOTA on 4D Light Field Benchmark
 - We achieve **TOP rank performance** for most of the error matrices on the benchmark.
+![Benchmark Result](http://www.cmlab.csie.ntu.edu.tw/~r06922009/AAAI2020/benchmark.png)
 - For more detail comparison, please use the link below.
 - [Benchmark link](https://lightfield-analysis.uni-konstanz.de/benchmark/table?column-type=images&metric=badpix_0070)
 
@@ -42,6 +43,6 @@ Cudnn             7.1.4
   - To use your own model, you can modify the import model at line 78 like below:
     - `path_weight='./pretrain_model_9x9.hdf5'`
     
-Last modified data: 2019/12/01.
+Last modified data: 2019/12/02.
 
 The code is modified and heavily borrowed from EPINET: <https://github.com/chshin10/epinet>
