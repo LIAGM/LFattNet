@@ -1,5 +1,6 @@
 # LFattNet: Attention-based View Selection Networks for Light-field Disparity Estimation
-![paper concept](http://www.cmlab.csie.ntu.edu.tw/~r06922009/AAAI2020/concept.png)
+
+<img src="http://www.cmlab.csie.ntu.edu.tw/~r06922009/AAAI2020/concept.png" width="555" align=center />
 
 **Attention-based View Selection Networks for Light-field Disparity Estimation** 
 
@@ -16,7 +17,9 @@ AAAI Conference on Artificial Intelligence (AAAI), Feb 2020
 
 # SOTA on 4D Light Field Benchmark
 - We achieve **TOP rank performance** for most of the error matrices on the benchmark.
-![Benchmark Result](http://www.cmlab.csie.ntu.edu.tw/~r06922009/AAAI2020/benchmark.png)
+
+<img src="http://www.cmlab.csie.ntu.edu.tw/~r06922009/AAAI2020/benchmark_rank.png" width="555" align=center />  
+
 - For more detail comparison, please use the link below.
 - [Benchmark link](https://lightfield-analysis.uni-konstanz.de/benchmark/table?column-type=images&metric=badpix_0070)
 
