@@ -47,7 +47,17 @@ Cudnn             7.1.4
 - Run `python LFattNet_evaluation.py`
   - To use your own model, you can modify the import model at line 78 like below:
     - `path_weight='./pretrain_model_9x9.hdf5'`
-    
-Last modified data: 2019/12/02.
+
+# Citation
+```
+@inproceedings{Tsai:2020:ABV,
+        author = {Tsai, Yu-Ju and Liu, Yu-Lun and Ouhyoung, Ming and Chuang, Yung-Yu},
+        title = {Attention-based View Selection Networks for Light-field Disparity Estimation},
+        booktitle = {Proceedings of the 34th Conference on Artificial Intelligence (AAAI)},
+        year = {2020}
+}
+```
+
+Last modified data: 2020/2/19.
 
 The code is modified and heavily borrowed from EPINET: <https://github.com/chshin10/epinet>
