@@ -1,6 +1,6 @@
 # LFattNet: Attention-based View Selection Networks for Light-field Disparity Estimation
 
-<img src="http://www.cmlab.csie.ntu.edu.tw/~r06922009/AAAI2020/concept.png" width="555" align=center />
+<img src="/images/paper_concept.jpg" width="555" align=center />
 
 **Attention-based View Selection Networks for Light-field Disparity Estimation** 
 
@@ -9,16 +9,16 @@ Yu-Ju Tsai,<sup>1</sup> Yu-Lun Liu,<sup>1,2</sup> Ming Ouhyoung,<sup>1</sup> Yun
 
 AAAI Conference on Artificial Intelligence (AAAI), Feb 2020  
 
-- [(Paper Link)](http://www.cmlab.csie.ntu.edu.tw/~r06922009/AAAI2020/aaai2020_LFattNet_camera_ready.pdf)
+- [(Paper Link)](/paper/aaai2020_LFattNet_camera_ready.pdf)
 - Contact: <r06922009@cmlab.csie.ntu.edu.tw>, <yulunliu@cmlab.csie.ntu.edu.tw>  
 
 ## Network Architecture
-![Network Architecture](http://www.cmlab.csie.ntu.edu.tw/~r06922009/AAAI2020/network.png)
+![Network Architecture](/images/network.jpg)
 
 # SOTA on 4D Light Field Benchmark
 - We achieve **TOP rank performance** for most of the error matrices on the benchmark.
 
-<img src="http://www.cmlab.csie.ntu.edu.tw/~r06922009/AAAI2020/benchmark_rank.png" width="555" align=center />  
+<img src="/images/benchmark.PNG" width="555" align=center />  
 
 - For more detail comparison, please use the link below.
 - [Benchmark link](https://lightfield-analysis.uni-konstanz.de/benchmark/table?column-type=images&metric=badpix_0070)
@@ -58,6 +58,6 @@ Cudnn             7.1.4
 }
 ```
 
-Last modified data: 2020/2/19.
+Last modified data: 2020/09/14.
 
 The code is modified and heavily borrowed from EPINET: <https://github.com/chshin10/epinet>
